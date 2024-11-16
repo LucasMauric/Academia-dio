@@ -16,8 +16,6 @@ import java.util.List;
 @RequestMapping("/matriculas")
 public class MatriculaController {
     @Autowired
-    MatriculaRepository matriculaRepository;
-    @Autowired
     MatriculaServiceImpl matriculaService;
 
     @PostMapping
